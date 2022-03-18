@@ -1,0 +1,24 @@
+.body-wrapper {
+  display: flex;
+  flex: 10;
+  flex-direction: row;
+  height: 100vh;
+}
+body {
+  padding: 0;
+  background: #fafafa;
+  margin: 0;
+}
+.body-wrapper .left {
+  flex: 1.5;
+}
+.body-wrapper .right {
+  flex: 8.5;
+}
+
+.order-card {
+  border: 1px solid #333;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  padding: 1rem;
+}
